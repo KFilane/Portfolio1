@@ -29,14 +29,14 @@
     }
     .navbar a {
         font-size: 18px;
-        color:#2980b9;
+        color:#000407;
         text-decoration: none;
         font-weight: 500;
         margin-left: 35px;
     }
     .navbar a:hover,
     .navbar a.active{
-        color:#192ac2;
+        color:#000000;
     }
      
     .home{
@@ -44,12 +44,14 @@
       height: 80vh;
       background-size: cover;
       background-position: center;
+      background-image: url(home.jpg);
       align-items: center;
       padding: 0 10%;
     }
     
     .home-content{
         max-width: 600px;
+        
     }
      
     
@@ -137,6 +139,7 @@
         width: 170px;
         display: flex;
         justify-content: space-between;
+        
     }
     
     .home-sci a{
@@ -178,3 +181,6 @@
         width: 100%;
     }
 
+    .about{
+        padding-bottom: 10rem;
+    }
