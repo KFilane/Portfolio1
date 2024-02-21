@@ -235,3 +235,73 @@
     color: #2997b9;
     font-size: 14px;
 }
+
+.container {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-me-container {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10%;
+}
+.contact-form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    margin-top: 10px;
+    color: #555;
+}
+
+input, textarea {
+    width: 15%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
